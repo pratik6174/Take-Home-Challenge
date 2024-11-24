@@ -1,0 +1,25 @@
+.homePage {
+  padding: 1rem;
+
+  .bookGrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+  }
+
+  .noBooksText {
+    color: #555;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+  }
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
